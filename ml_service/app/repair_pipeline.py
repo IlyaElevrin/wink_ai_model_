@@ -1208,7 +1208,7 @@ def analyze_script_file(path: str) -> Dict[str, Any]:
         "aggregated_scores": {k: round(agg[k], 3) for k in score_keys},
         "top_trigger_scenes": top_scenes,
         "total_scenes": len(scenes),
-        "scenes": all_scenes,
+        #"scenes": all_scenes,
     }
 
     return result
